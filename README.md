@@ -74,7 +74,7 @@ Start the server
 ```
 
 ## Contributors
-- Kumar Laxmikant (myself)
+- Kumar Laxmikant 
 - Anushka Nambiar
 - Aniket Gupta
 - Aditya Bansal
