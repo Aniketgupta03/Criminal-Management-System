@@ -53,6 +53,7 @@ For ER Diagram Click -> <a href="https://github.com/Kumar-laxmi/Criminal-Managem
 ### Frame-Work:
 - ![Gradle](https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white)
 
+
 ### Database:
 - ![Database](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
 
@@ -70,14 +71,77 @@ Go to the project directory
   cd Criminal-Management-System/src/CriminalManagementSystem
 ```
 
-Start the server
+Run the application
 
 ```bash
   javac LogIn.java
 ```
 
 ## Contributors
-- Kumar Laxmikant 
+- Kumar Laxmikant (myself)
 - Anushka Nambiar
 - Aniket Gupta
 - Aditya Bansal
+
+## Output Screen-Shots:
+When the application is executed then LogIn Screen pops-up prompting for authentication
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/LogIn.png" />
+
+There are two options to Log In <br/> Either as an Admin or as an Operator
+If we choose Administrator Radio-Button and give:
+Username:
+
+    admin
+
+Password: 
+   
+    admin123
+
+This will lead to Administrator Page
+And the Page would look like this 
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/Admin1.png" />
+###  NOTE: On clicking Home button you will be redirected to default admin page above
+
+An admin has full authority to make changes in FIR and Criminal Record as well as Operator Record
+- An Admin can Add, View, Delete and Update Operator record as well as FIR & Criminal Record.
+- There is only one admin and multiple operators can exist.
+
+To add new Operator, Click **Add Operator**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorAdd.png" />
+
+To update existing Operator, Click **Update Operator**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorUpdate.png" />
+
+To view existing Operator, Click **View Operator**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorView.png" />
+
+To delete existing Operator, Click **Delete Operator**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorDelete.png" />
+
+To Enter/Register a new FIR, click **Register FIR**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RegisterFIR.png" />
+
+To view/retreive a FIR, click **Retrieve FIR**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/ViewFIR.png" />
+
+To update existing FIR, click **Update FIR**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/UpdateFIR.png" />
+
+To delete exisiting FIR, click **Delete FIR**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/DeleteFIR.png" />
+
+#### ==> If Admin wants to access only the Criminal Data instead of the FIR Data, that is also possible
+
+To View/Retrieve Criminal Data, click **Retrieve Criminal**
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RetrieveCriminal.png" />
+
+To Update existing Criminal Data, click **Update Criminal**
+#### NOTE: Any change in Criminal Data also effects FIR Details pertaining to the Criminal
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/UpdateCriminal.png" />
+
+To Delete existing Criminal Data, click **Delete Criminal**
+#### NOTE: Any change in Criminal Data also effects FIR Details pertaining to the Criminal
+##### CAUTION: This action will cause deletion of FIR pertaining to that particular Criminal
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/DeleteCriminal.png" />
+
+### For Detailed Report: <a href="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/REPORT/Team%20-%202.pdf">Click Here</a>
