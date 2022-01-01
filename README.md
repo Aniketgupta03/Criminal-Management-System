@@ -1,5 +1,4 @@
-# Criminal-Management-System
-It is a GUI Application using Java Swing API
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/Images/BannerNew.png" />
 
 ## Abstract
 <p>
@@ -45,7 +44,7 @@ For ER Diagram Click -> <a href="https://github.com/Kumar-laxmi/Criminal-Managem
 ### IDE:
 - ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 - ![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-- ![Intellijidea](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+- ![NetBeans IDE](https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white)
 
 ### Language:
 - ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -78,7 +77,7 @@ Run the application
 ```
 
 ## Contributors
-- Kumar Laxmikant 
+- Kumar Laxmikant (myself)
 - Anushka Nambiar
 - Aniket Gupta
 - Aditya Bansal
@@ -143,5 +142,11 @@ To Delete existing Criminal Data, click **Delete Criminal**
 #### NOTE: Any change in Criminal Data also effects FIR Details pertaining to the Criminal
 ##### CAUTION: This action will cause deletion of FIR pertaining to that particular Criminal
 <img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/DeleteCriminal.png" />
+
+### If we Login into the application as an Operator then the UI would appear like this:
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/OperatorPage.png" />
+
+As an Operator, we can retrieve/view a FIR Information:
+<img src="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/SCREEN-SHOTS/RetrieveFIR_OPERATORPAGE.png" />
 
 ### For Detailed Report: <a href="https://github.com/Kumar-laxmi/Criminal-Management-System/blob/main/REPORT/Team%20-%202.pdf">Click Here</a>
